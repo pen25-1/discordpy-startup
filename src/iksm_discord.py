@@ -21,7 +21,7 @@ import basic
 sys.path.append(f"{os.path.dirname(__file__)}/../splatnet2statink")  # noqa
 #from iksm import call_flapg_api, get_session_token, version_NSO, A_VERSION  # noqa
 A_VERSION = "1.5.11"
-version_NSO = "1.10.1"
+version_NSO = "1.11.0"
 
 session = requests.Session()
 
