@@ -199,7 +199,7 @@ def check_statink_key():
 def set_language():
 	'''Prompts the user to set their game language.'''
 
-	if USER_LANG == "":
+	if USER_LANG == "ja-JP":
 		print("Default locale is en-US. Press Enter to accept, or enter your own (see readme for list).")
 		language_code = input("")
 
