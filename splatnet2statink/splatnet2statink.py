@@ -185,7 +185,7 @@ def check_statink_key():
 	if API_KEY == "skip":
 		return
 	elif len(API_KEY) != 43:
-		new_api_key = ""
+		new_api_key = "ybAb0LQS-9RIiTbY58AqpskBrnuFXOJ3yAztHTBAcmA"
 		while len(new_api_key.strip()) != 43 and new_api_key.strip() != "skip":
 			if new_api_key.strip() == "" and API_KEY.strip() == "":
 				new_api_key = input("stat.ink API key: ")
