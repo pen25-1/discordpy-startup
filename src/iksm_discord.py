@@ -121,7 +121,7 @@ async def auto_upload_iksm():
         #	os.remove(f"{tmp_dir}/config.txt")
 
 
-async def autoUploadCycle(next_time=900):
+async def autoUploadCycle(next_time=1500):
     config_path = f"{basic.const_paths['tmp_dir' if basic.IsHeroku else 'splat_dir']}/config.txt"
     if not os.path.isfile(config_path):
         with open(config_path, "w") as f:
