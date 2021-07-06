@@ -290,10 +290,10 @@ def get_hash_from_s2s_api(id_token, timestamp): # use for discord
     '''Passes an id_token and timestamp to the s2s API and fetches the resultant hash from the response.'''
 
     # check to make sure we're allowed to contact the API. stop spamming my web server pls
-    """config_data={}
+    """config_data={}"""
 
 	# check to make sure we're allowed to contact the API. stop spamming my web server pls
-	"""config_data={}
+	config_data={}
 
 	try:
 		with open(config_path, "r") as f:
