@@ -24,7 +24,7 @@ bot = commands.Bot(command_prefix="?", description=description)
 async def on_ready():
     print(f"Logged in as\n{bot.user.name}\n{bot.user.id}\n------")
 
-    await iksm_discord.autoUploadCycle(next_time = 60)
+    await iksm_discord.autoUploadCycle(next_time = 300)
 
 
 # メッセージ受信時に動作する処理
