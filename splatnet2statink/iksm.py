@@ -14,9 +14,9 @@ import string
 
 
 session = requests.Session()
-A_VERSION = "1.5.10"
+A_VERSION = "1.5.11"
 version = A_VERSION
-version_NSO = "1.10.1"
+version_NSO = "1.11.0"
 
 # ----------- change config_path ------------
 config_path = "/tmp/config.txt" if os.getenv(
