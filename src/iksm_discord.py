@@ -24,7 +24,7 @@ sys.path.append(f"{os.path.dirname(__file__)}/../splatnet2statink")  # noqa
 # these version information will be obtained in excuting functions
 #A_VERSION = "1.5.11"
 #NSO_VERSION = "1.11.0"
-GLOBAL_versions_default = {"NSO": "1.11.0", "A": "1.5.11", "date": 0}
+GLOBAL_versions_default = {"NSO": "1.12.0", "A": "1.5.12", "date": 0}
 GLOBAL_versions_saved = GLOBAL_versions_default
 
 session = requests.Session()
