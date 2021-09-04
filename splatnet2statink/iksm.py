@@ -223,7 +223,7 @@ def get_cookie(session_token, userLang, ver):
         idToken = splatoon_token["result"]["webApiServerCredential"]["accessToken"]
         flapg_app = call_flapg_api(idToken, guid, timestamp, "app")
     except:
-        print("Error from Nintendo (in Account/Login step):")
+        print("Error from Nintendo (in Account/Login Step):")
         print(json.dumps(splatoon_token, indent=2))
         sys.exit(1)
 
